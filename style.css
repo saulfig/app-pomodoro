@@ -1,0 +1,85 @@
+body {
+    font-family: 'Londrina Outline', monospace;
+    background-color: black;
+    text-shadow:
+    0 0 3px #fff,
+    0 0 9px #fff,
+    0 0 150px #fff,
+    0 0 9px  #a30000 ,
+    0 0 10px #a30000,
+    0 0 20px#a30000,
+    0 0 40px #a30000,
+    0 0 80px #a30000,
+    0 0 90px#a30000,
+    0 0 100px #a30000,
+    0 0 150px #a30000,
+    0 0 160px #a30000,
+    0 0 170px #a30000,
+    0 0 210px #a30000;
+    color:white;
+  }
+  
+  #app {
+    background-color: black;
+    width: 500px;
+    height: 350px;
+   position: relative;
+   top: 100px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #time {
+    text-align: center;
+    padding: 20px 0;
+  }
+  #time #value {
+    font-size: 100px;
+    font-weight: bolder;
+  }
+  
+  .form {
+    display: flex;
+    justify-content: center;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    background: transparent;
+    Color: #FF0000; Color: rgb(255,0,0); Color: rgb(100%,0%,0%)
+  }
+  button,
+  input[type="submit"] {
+    border: none;
+   
+    background-color: #003366;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  #tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .task {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .task .completed {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .done {
+    display: inline-block;
+    padding: 5px;
+    background-color: #ccc;
+  }
+
+ 
